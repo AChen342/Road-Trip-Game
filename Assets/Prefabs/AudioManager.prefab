@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7180054103675754366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7180054103675754352}
+  - component: {fileID: 7180054103675754353}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7180054103675754352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7180054103675754366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7180054103675754353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7180054103675754366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ea9ef4a4fda95439e51440017ba4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainMenuMusic
+    clip: {fileID: 8300000, guid: e936e3b3488ead243a6970990092e414, type: 3}
+    pitch: 0.9
+    volume: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: EasyStages
+    clip: {fileID: 8300000, guid: e14aa083bd78915439626d6f1a54a8f5, type: 3}
+    pitch: 0.9
+    volume: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: IntermedStages
+    clip: {fileID: 8300000, guid: 116581a1451789041a7918a161ec0df1, type: 3}
+    pitch: 0.9
+    volume: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: FinalStages
+    clip: {fileID: 8300000, guid: 3e1e7ec438d7c6049972138a81f9e82a, type: 3}
+    pitch: 0.9
+    volume: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: NextLevel
+    clip: {fileID: 8300000, guid: 3f02db74f27712547b26a0a34cbb0ae7, type: 3}
+    pitch: 0.9
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 4e274d51c3a63164ba7cb5b1f6690ae1, type: 3}
+    pitch: 0.9
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+  - name: MouseButton
+    clip: {fileID: 8300000, guid: 689eb65de5753f3439c691c44f4edfe1, type: 3}
+    pitch: 0.9
+    volume: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ramp
+    clip: {fileID: 8300000, guid: f7dfdf70f50b18344aeb7a7dbfe3dfa9, type: 3}
+    pitch: 0.48
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
